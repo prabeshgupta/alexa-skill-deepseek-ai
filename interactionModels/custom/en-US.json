@@ -1,0 +1,83 @@
+{
+  "interactionModel": {
+    "dialog": {
+      "intents": [
+        {
+          "slots": [
+            {
+              "name": "catchAll",
+              "elicitationRequired": true,
+              "type": "AMAZON.SearchQuery",
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.488188965136.1230467216380"
+              }
+            }
+          ],
+          "name": "HelloWorldIntent",
+          "confirmationRequired": false,
+          "prompts": {}
+        }
+      ],
+      "delegationStrategy": "ALWAYS"
+    },
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "catchAll",
+              "type": "AMAZON.SearchQuery",
+              "samples": [
+                "{catchAll}"
+              ]
+            }
+          ],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        }
+      ],
+      "types": [],
+      "invocationName": "cognitive answers"
+    },
+    "prompts": [
+      {
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "What do you want?"
+          }
+        ],
+        "id": "Elicit.Slot.488188965136.1230467216380"
+      }
+    ]
+  }
+}
