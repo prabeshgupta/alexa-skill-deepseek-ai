@@ -72,7 +72,7 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 ---
 
 ## 💬 Support
-If you have questions or need assistance, please open an issue or reach out via email at [your-email@example.com].
+If you have questions or need assistance, please open an issue or reach out via email at [prabeshgupta217@gmail.com].
 
 ---
 
