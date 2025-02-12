@@ -1,80 +1,65 @@
-# Alexa Skill Powered by DeepSeek AI
+# 🚀 Alexa Skill Powered by DeepSeek AI  
 
-Welcome to the repository for an **Alexa skill** enhanced by **DeepSeek AI**! This project integrates advanced AI capabilities with Alexa's voice assistant platform to deliver smarter, more contextual responses.
+Turn your Alexa into a **smart AI assistant** by integrating **DeepSeek AI** – all for FREE! This repository contains the necessary files and step-by-step instructions to build your own Alexa skill using **DeepSeek API**.  
 
----
-
-## 🌟 Features
-- **DeepSeek AI Integration**: Delivers precise, context-aware answers.
-- **User-Friendly Setup**: Simple to deploy and intuitive to use.
-- **Customizable**: Adaptable to diverse use cases and industries.
+🔹 **Watch the Full Video Tutorial Here** → [**Watch Now ⚡**](https://youtu.be/AnkS4yX2fwc?si=ma2zAZr-qj7nbNw4)  
 
 ---
 
-## 🚀 Repository Structure
-
-| Directory          | Description |
-|--------------------|-------------|
-| `interactionModels`| Contains Alexa interaction models, including intents and utterances. |
-| `lambda`           | Backend code for the Alexa skill, including logic and AI integration. |
-| `skill.json`       | Configuration file for the Alexa skill. |
-| `config.js`        | Configuration file for managing API keys and endpoints. |
+## 📌 Features  
+✅ Integrates **DeepSeek AI** with Alexa  
+✅ Smart AI-powered responses 🤖  
+✅ Easy step-by-step setup 🚀  
+✅ No prior coding experience required  
 
 ---
 
-## 🛠️ Getting Started
+## 📖 Setup Instructions  
 
-### Prerequisites
-1. **Alexa Developer Account** ([Sign up here](https://developer.amazon.com/alexa)).
-2. **DeepSeek AI API Key** (Visit the [DeepSeek AI website](https://www.deepseek.ai) for details).
-3. **Node.js** installed on your system.
+### **1️⃣ Get Your DeepSeek AI API Key**  
+1. **(Optional)** Create a new Deepseek account.  
+2. Open **[platform.deepseek.com/api_keys](https://platform.deepseek.com/api_keys)** and create an API.  
+3. Copy and **save your API key** for later use.  
 
-### Installation
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/prabeshgupta/alexa-skill-deepseek-ai.git
-   cd alexa-skill-deepseek-ai
-   ```
-2. Navigate to the `lambda` directory and install dependencies:
-   ```bash
-   cd lambda
-   npm install
-   ```
-3. Configure your API key:
-   - Open the `config.js` file in the root directory.
-   - Replace `YOUR_DEEPSEEK_API_KEY` with your actual API key.
+### **2️⃣ Download & Prepare Files**  
+1. Download this repository: **[github.com/prabeshgupta/alexa-skill-deepseek-ai](github.com/prabeshgupta/alexa-skill-deepseek-ai)**  
+2. Unzip the downloaded file 📂  
 
-### Deployment
-1. Package the Lambda function:
-   ```bash
-   npm run build
-   ```
-2. Deploy the Lambda function using AWS Lambda or another preferred service.
-3. Update the `skill.json` file and deploy it through the Alexa Developer Console.
+### **3️⃣ Set Up Your Alexa Skill**  
+1. Log in to **[Alexa Developer Console](developer.amazon.com/alexa/console/ask)**  
+2. Create a **New Alexa Skill** → Select **Custom Model + Node.js Hosting**  
+3. Configure settings & set invocation name  
+
+### **4️⃣ Deploy the Code**  
+1. Open the **unzipped folder**  
+2. Copy & paste the following files into your Alexa Developer Console:  
+   - `index.js` → Inside **lambda folder**  
+   - `config.js` → Create a new file and paste the API key inside  
+   - `package.json` → Replace the existing package.json in Alexa Console  
+
+### **5️⃣ Final Configurations**  
+1. Modify **Intents, Slots & Utterances** in the Alexa Developer Console  
+2. Click **Save & Build Skill** ✅  
 
 ---
 
-## 🧩 Contributing
-We welcome contributions to this project! Here’s how you can get involved:
-1. Fork the repository.
-2. Create a new branch for your feature or fix.
-3. Submit a pull request with a clear description of your changes.
+## 🎉 How to Use  
+Once everything is set up, invoke the skill by saying:  
 
-### Development Tips
-- Make sure to test changes locally before deployment.
-- Follow standard coding guidelines to maintain consistency.
+🗣️ **"Alexa, open [your skill name]"**  
+🗣️ **"Hello"** → Ask any question!  
 
 ---
 
-## 🛡️ License
-This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute this software in compliance with the license.
+## 📺 Video Tutorial  
+For a **detailed walkthrough**, watch the video tutorial:  
+🔗 **[Watch Now ⚡](https://youtu.be/AnkS4yX2fwc?si=ma2zAZr-qj7nbNw4)**  
 
 ---
 
-## 💬 Support
-If you have questions or need assistance, please open an issue or reach out via email at [prabeshgupta217@gmail.com].
+## 💡 Need Help?  
+If you have any questions or issues, feel free to:  
+📌 **Follow & DM on Instagram:** [instagram.com/prabeshtech232](https://instagram.com/prabeshtech232)  
+📌 **Join the Discussion on Facebook:** [facebook.com/imprabeshgupta](https://facebook.com/imprabeshgupta)  
 
----
-
-## 📢 Acknowledgments
-Special thanks to the developers at DeepSeek AI for their outstanding technology and to the Alexa Developer community for inspiration and resources.
+🚀 **Don't forget to ⭐ this repository if you found it helpful!**  
